@@ -65,13 +65,15 @@ namespace pageAfterLogin
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DimGray;
+            this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.LightCyan;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(49, 176);
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.Location = new System.Drawing.Point(49, 177);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(122, 36);
             this.button2.TabIndex = 2;
@@ -81,13 +83,14 @@ namespace pageAfterLogin
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DimGray;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.LightCyan;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
             this.button1.Location = new System.Drawing.Point(49, 113);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 36);
